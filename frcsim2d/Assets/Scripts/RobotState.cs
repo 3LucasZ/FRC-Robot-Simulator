@@ -9,18 +9,21 @@ public class RobotState
 [System.Serializable]
 public class RobotData
 {
-    public SwerveModule leftTop;
-    public SwerveModule leftBack;
-    public SwerveModule rightTop;
-    public SwerveModule rightBack;
+    public SwerveModule frontLeft;
+    public SwerveModule frontRight;
+    public SwerveModule backLeft;
+    public SwerveModule backRight;
+
     public float rotation;
     public float xVelocity;
     public float yVelocity;
+
     public RobotData() {
-      leftTop = new SwerveModule("lt");
-      leftBack = new SwerveModule("lb");
-      rightTop = new SwerveModule("rt");
-      rightBack = new SwerveModule("rb");
+      frontLeft = new SwerveModule();
+      frontRight = new SwerveModule();
+      backLeft = new SwerveModule();
+      backRight = new SwerveModule();
+
       rotation = 0;
       xVelocity = 0;
       yVelocity = 0;
@@ -30,12 +33,10 @@ public class RobotData
 [System.Serializable]
 public class SwerveModule
 {
-  public string type;
   public float rotation;
   public float rpm;
 
-  public SwerveModule(string t) {
-    type = t;
+  public SwerveModule() {
     rotation = 0;
     rpm = 0;
   }

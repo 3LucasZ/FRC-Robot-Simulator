@@ -5,7 +5,6 @@ using System;
 using System.Net;
 using System.Net.Sockets;
 using System.Threading;
-using UnityEngine;
 
 public class Server : MonoBehaviour
 {
@@ -19,7 +18,7 @@ public class Server : MonoBehaviour
     otherIPEP = new IPEndPoint(IPAddress.Any, 5000);
     new Thread (() =>
     {
-      mySock = new UdpClient(5000);
+      mySock = new UdpClient(6000);
       while (true) {
         data = mySock.Receive(ref otherIPEP);
       }
@@ -29,7 +28,8 @@ public class Server : MonoBehaviour
   void Update()
   {
     if (data != null) {
-      RobotState.state = JsonUtility.FromJson<RobotData>(data);;
+      string jsonData = System.Text.Encoding.ASCII.GetString(data);
+      RobotState.state = JsonUtility.FromJson<RobotData>(jsonData);
     }
   }
 }
