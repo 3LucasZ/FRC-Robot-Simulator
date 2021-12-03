@@ -14,6 +14,22 @@ public class SwerveModuleSimulator : MonoBehaviour
         RPMLog = transform.Find("Pivot");
         type = name.Substring(0,2);
 
+        if (type.Equals("FL")) {
+          transform.position = new Vector3(SwerveMeta.xOffset, SwerveMeta.yOffset, 0);
+        }
+        else if (type.Equals("FR")) {
+          transform.position = new Vector3(SwerveMeta.xOffset, -SwerveMeta.yOffset, 0);
+        }
+        else if (type.Equals("BL")) {
+          transform.position = new Vector3(-SwerveMeta.xOffset, SwerveMeta.yOffset, 0);
+        }
+        else if (type.Equals("BR")) {
+          transform.position = new Vector3(-SwerveMeta.xOffset, -SwerveMeta.yOffset, 0);
+        }
+        else {
+          Debug.Log("Illegal swerve module detected!");
+        }
+
         transform.eulerAngles = new Vector3(0,0,0);
         RPMLog.localScale = new Vector3(0,0,0);
     }
