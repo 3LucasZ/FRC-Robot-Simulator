@@ -1,0 +1,149 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/2020.3.4f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/LucasZ/Documents/GitHub/frcsim/frcsim3d
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53341
+Successfully changed project path to: /Users/LucasZ/Documents/GitHub/frcsim/frcsim3d
+/Users/LucasZ/Documents/GitHub/frcsim/frcsim3d
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 37.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.4f1 (0abb6314276a)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/2020.3.4f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/LucasZ/Documents/GitHub/frcsim/frcsim3d/Assets
+GfxDevice: creating device client; threaded=0
+2021-12-18 15:02:36.027 Unity[97246:27544693] Color LCD preferred device: Intel Iris Graphics (low power)
+2021-12-18 15:02:36.028 Unity[97246:27544693] Metal devices available: 1
+2021-12-18 15:02:36.028 Unity[97246:27544693] 0: Intel Iris Graphics (low power)
+2021-12-18 15:02:36.028 Unity[97246:27544693] Using device Intel Iris Graphics (low power)
+Initializing Metal device caps: Intel Iris Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/2020.3.4f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/2020.3.4f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56246
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/2020.3.4f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002829 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 44.31 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  6.464 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001297 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.674 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/2020.3.4f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.05 seconds
+Refreshing native plugins compatible for Editor in 3.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1115 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 112.4 MB.
+System memory in use after: 112.4 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1557.
+Total: 5.114412 ms (FindLiveObjects: 1.482791 ms CreateObjectMapping: 0.122000 ms MarkObjects: 3.381883 ms  DeleteObjects: 0.120810 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefabs/SwerveModule.prefab
+  artifactKey: Guid(27760454c5a1c4b59adea5bd5cee202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SwerveModule.prefab using Guid(27760454c5a1c4b59adea5bd5cee202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24296118b185c5cbc3a1d221d0dd0034') in 3.227938 seconds
+  Import took 3.238948 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001462 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.125 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.24 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1110 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 120.4 MB.
+System memory in use after: 120.5 MB.
+
+Unloading 6 unused Assets to reduce memory usage. Loaded Objects now: 1569.
+Total: 3.046524 ms (FindLiveObjects: 0.261281 ms CreateObjectMapping: 0.054195 ms MarkObjects: 2.612492 ms  DeleteObjects: 0.114827 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 313.741233 seconds.
+  path: Assets/New Material.mat
+  artifactKey: Guid(c11204aa395724df89538d9b599750c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Material.mat using Guid(c11204aa395724df89538d9b599750c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1832cb85efbb570a5cb9a1e812cc920c') in 0.785048 seconds
+  Import took 0.788920 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.558582 seconds.
+  path: Assets/Materials
+  artifactKey: Guid(cca6dcdabc3e44d3d9032c693c6c5cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials using Guid(cca6dcdabc3e44d3d9032c693c6c5cb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4417d1eccfe84e86b309c5834044566') in 0.004139 seconds
+  Import took 0.008313 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 143.660020 seconds.
+  path: Assets/Materials/SwerveMaterial.mat
+  artifactKey: Guid(b37b7ad8f75734ea7bd4b20f93be1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SwerveMaterial.mat using Guid(b37b7ad8f75734ea7bd4b20f93be1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2db403b0bb61125426c48dbbc32a2004') in 0.060941 seconds
+  Import took 0.065497 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 126.910842 seconds.
+  path: Assets/Prefabs
+  artifactKey: Guid(370e034e29f0c453ab84af0d9fe25412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs using Guid(370e034e29f0c453ab84af0d9fe25412) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c83ae0237851eb77515cc7fbc2d2ce3') in 0.003659 seconds
+  Import took 0.008508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 403.913106 seconds.
+  path: Assets/Materials/SwerveMaterial.mat
+  artifactKey: Guid(b37b7ad8f75734ea7bd4b20f93be1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/SwerveMaterial.mat using Guid(b37b7ad8f75734ea7bd4b20f93be1964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51fbd7218c71bd394d2f2cf7696930a9') in 0.029997 seconds
+  Import took 0.034695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005289 seconds.
+  path: Assets/Materials/WheelMaterial.mat
+  artifactKey: Guid(c11204aa395724df89538d9b599750c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/WheelMaterial.mat using Guid(c11204aa395724df89538d9b599750c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fffb6d9b3068e1033b935592223a020') in 0.044262 seconds
+  Import took 0.059994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.875087 seconds.
+  path: Assets/Prefabs/SwerveModule.prefab
+  artifactKey: Guid(27760454c5a1c4b59adea5bd5cee202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/SwerveModule.prefab using Guid(27760454c5a1c4b59adea5bd5cee202c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8944558742e0db34c05d848e47f97afc') in 0.074723 seconds
+  Import took 0.079289 seconds .
+
